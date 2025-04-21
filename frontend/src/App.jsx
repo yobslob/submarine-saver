@@ -8,7 +8,7 @@ function App() {
   const [error, setError] = useState('');
 
   // Change this to your backend URL when deploying
-  const API_URL = "http://localhost:8000/predict/";
+  const API_URL = "https://submarine-saver.onrender.com";
 
   const handleBulkInputChange = (e) => {
     setBulkInput(e.target.value);
