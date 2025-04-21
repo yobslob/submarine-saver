@@ -1,0 +1,95 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Conda environment files
+env/
+.conda/
+*.conda
+*.env
+
+# Virtual environments
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# MacOS
+.DS_Store
+
+# Logs and debugging
+*.log
+
+# Test and coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Data files
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.json
+*.db
+*.sqlite
+*.pkl
+*.h5
+
+# Model files
+*.pt
+*.pth
+*.hdf5
+*.joblib
+*.sav
+
+# Notebooks output
+*.nbconvert.ipynb
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# MyPy and other analysis tools
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# dotenv
+.env
+.env.*
+
+# Jupyter runtime
+~/.local/share/jupyter/runtime/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
