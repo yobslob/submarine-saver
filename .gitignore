@@ -1,95 +1,23 @@
-# Byte-compiled / optimized / DLL files
+# Ignore Python cache and compiled files
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
 
-# C extensions
-*.so
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
-
-# Conda environment files
-env/
-.conda/
-*.conda
-*.env
-
-# Virtual environments
+# Ignore virtual environment
 venv/
-ENV/
-env.bak/
-venv.bak/
+.env/
 
-# VS Code settings
-.vscode/
+# Ignore data and models
+data/raw/
+data/processed/
+models/
+outputs/
 
-# PyCharm settings
-.idea/
-
-# MacOS
-.DS_Store
-
-# Logs and debugging
+# Ignore logs
 *.log
 
-# Test and coverage
-htmlcov/
-.tox/
-.nox/
-.coverage
-.cache
-.pytest_cache/
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-
-# Data files
-*.csv
-*.tsv
-*.xls
-*.xlsx
-*.json
-*.db
-*.sqlite
-*.pkl
-*.h5
-
-# Model files
-*.pt
-*.pth
-*.hdf5
-*.joblib
-*.sav
-
-# Notebooks output
-*.nbconvert.ipynb
-
-# Build artifacts
-build/
-dist/
-*.egg-info/
-.eggs/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# MyPy and other analysis tools
-.mypy_cache/
-.dmypy.json
-.pyre/
-.pytype/
-
-# dotenv
-.env
-.env.*
-
-# Jupyter runtime
-~/.local/share/jupyter/runtime/
-
-# Temporary files
-*.tmp
-*.swp
-*.bak
+# DVC files (if used)
+*.dvc
+.cache/
